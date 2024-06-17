@@ -1,0 +1,40 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "My first post",
+      "datetime": "June 01,2024 11:17:36 AM",
+      "body": "Git hub learning"
+    },
+    {
+      "id": "2",
+      "title": "My 2nd post",
+      "datetime": "June 01,2024 11:17:36 AM",
+      "body": "HTML learning"
+    },
+    {
+      "id": "3",
+      "title": "My 3rd post",
+      "datetime": "June 01,2024 11:17:36 AM",
+      "body": "CSS learning for the month of june"
+    },
+    {
+      "id": "4",
+      "title": "My 4th post",
+      "datetime": "June 01,2024 11:17:36 AM",
+      "body": "React learning"
+    },
+    {
+      "id": "41",
+      "title": "delete",
+      "datetime": "June 17, 2024 12:40:46 PM",
+      "body": "hekko"
+    },
+    {
+      "id": "411",
+      "title": "prags",
+      "datetime": "June 17, 2024 2:03:38 PM",
+      "body": "cool"
+    }
+  ]
+}

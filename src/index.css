@@ -11,3 +11,125 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+*{
+  margin: 0;
+  padding: 0 30px 0 30px ;
+  box-sizing: border-box;
+}
+
+@media only screen and  (min-width: 610px){
+  
+
+html{
+  font-size: 16px;
+}
+}
+#root{
+  /* the size of all of the other elements will have the same width as their content, 
+  but the element with flex: 1 will have the remaining full space given to it. */
+  flex-grow: 1; 
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+} 
+/* .App{
+  width: 100px;
+  max-width: 800px;
+} */
+
+.Header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  background-color: aqua;
+}
+.Header h1{
+  font-size: 2rem;
+  position: fixed;
+}
+.navigation{
+  display:flex;
+  /* flex-direction: row;
+  flex-wrap: nowrap; /* Do not allow items to wrap onto multiple lines */
+  /* justify-content: space-between;Distribute items along the main axis with space between them */
+  /* align-items: center;Align items vertically in the center */ 
+  
+}
+.searchForm {
+  display: flex;
+   /* background-color:rgb(194, 98, 98); */
+   width: 300px;
+   height: 40px;
+  padding: 10px;
+
+}
+
+.searchLabel{
+  position: absolute;
+
+  left: -9999px;
+}
+
+
+.unOrderList{
+  display: flex;
+  /* background-color: rgb(237, 229, 229); */
+  color:aliceblue;
+  margin-left: 300px;
+  
+}
+.unOrderList li{
+  margin: 0 1px;
+}
+
+.navigation li{
+  color: white;
+  text-decoration: none;
+}
+
+.navigation li :hover,
+.navigation li :focus,
+/* anchor links  */
+.navigation li :hover a,  
+.navigation li :focus a{
+  background-color: grey;
+  color:white
+}
+.postClass {
+  background-color: seashell; /* Example background color */
+  margin-bottom: 20px;
+  
+}
+.newPostForm{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.newPostText,.newPostTextarea{
+  width: 300px;
+  margin-bottom: 10px;
+  
+}
+
+
+.newPostButton, .editPostButton {
+  width: 100px;
+  color: black;
+  display: flex;
+  /* flex-direction:row; */
+  /* background-color: pink; */
+  /* display: inline-block; */
+ 
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 30px 10px 10px;
+  position:fixed;
+  bottom: 0;
+  width: 100%;
+}
